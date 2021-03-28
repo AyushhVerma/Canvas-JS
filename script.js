@@ -81,7 +81,7 @@ handleParticle = () => {
 
 animate = () => {
     // cont.clearRect(0, 0, canvas.width, canvas.height);
-    cont.fillStyle = 'rgba(0, 0, 0, .5)'
+    cont.fillStyle = 'rgba(255, 255, 255, .5)'
     cont.fillRect(0, 0, canvas.width, canvas.height);
     handleParticle();
     hue += 2;
