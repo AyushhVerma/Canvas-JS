@@ -55,7 +55,7 @@ class Particle {
     }
 }
 
-handleParticle = () => {
+const handleParticle = () => {
     for(var i = 0; i < particlesArr.length ; i++){
         particlesArr[i].update();
         particlesArr[i].draw();
@@ -79,7 +79,7 @@ handleParticle = () => {
     }
 }
 
-animate = () => {
+const animate = () => {
     // cont.clearRect(0, 0, canvas.width, canvas.height);
     cont.fillStyle = 'rgba(255, 255, 255, .5)'
     cont.fillRect(0, 0, canvas.width, canvas.height);
